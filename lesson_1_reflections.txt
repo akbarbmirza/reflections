@@ -1,0 +1,47 @@
+Q: How did viewing a diff between two versions of a file help you see the bug
+that was introduced?
+
+A: Viewing a diff made it really easy to see what changed between the two file
+versions and so it was really simple to pinpoint where the file went wrong and
+we were able to fix it immediately.
+
+Q: How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+A: Having easy access to the history of a file will help you find bugs that show
+up between two versions of a file. Furthermore, if you accidentally delete every
+line, or a large section and save over it, you can always go back. It's like an
+Undo button for your computer.
+
+Q: Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat each file
+separately?
+
+A: I think that for a version control system like Git, being able to track many
+files is more important than it would be in one like Google Docs. Generally,
+when working with documents, changes in one document don't directly affect
+another document.
+
+Q: How can you use the commands git log and git diff to view the history of
+files?
+
+A: By using the command git log, you'll see a history log (DUH!) of all of the 
+past commits that were done on that repository. Furthermore, you can use the ids
+shown in that log to check the difference between 2 ids. To do so, you must use
+the command:
+
+	git diff [id1] [id2]
+where id1 and id2 are the respective ids.
+
+Q: How might version control make you more confident to make changes that could
+break something?
+
+A: Version Control would be like an instant undo button. You would easily be
+able to find out what exactly went wrong and then fix it without losing any of
+your changes in the future! :D
+
+Q: Now that you have your workspace set up, what do you want to try using Git
+for?
+
+A: I want to try using Git for some of my web development projects as well as 
+this reflections folder that I've made for this file and others like it.
