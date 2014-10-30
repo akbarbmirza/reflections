@@ -13,3 +13,10 @@ directory and files in the repository. The staging area holds all the files that
 are "staged" to be in the repo, but it also holds files that will only be in the
 working directory. It allows you to see what will be commited and gives you more
 precise control over what files you want to commit.
+
+Q: How can use the staging area to make sure you have one commit per logical
+change?
+
+A: You can only add the changes in one logical change (by adding those specific
+files to the staging area), commit those, and then go on to the next logical
+change.
