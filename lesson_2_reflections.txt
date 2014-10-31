@@ -20,3 +20,12 @@ change?
 A: You can only add the changes in one logical change (by adding those specific
 files to the staging area), commit those, and then go on to the next logical
 change.
+
+Q: What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+A: A branch would be helpful in keeping history organized if you decided to
+start coding a new experimental feature or you want to quickly translate your
+code base. Branches would allow you to take leaps and bounds in your code that
+may break your code, but with the assurance that you will always have the demo
+code base ready.
