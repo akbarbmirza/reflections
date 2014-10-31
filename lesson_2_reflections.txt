@@ -29,3 +29,10 @@ start coding a new experimental feature or you want to quickly translate your
 code base. Branches would allow you to take leaps and bounds in your code that
 may break your code, but with the assurance that you will always have the demo
 code base ready.
+
+Q: How do the diagrams help you visualize the branch structure?
+
+A: Diagrams make it really easy to see the high level view of your git version
+tree. It makes it easy to understand what the detached head state is, a commit
+that is unreachable because it doesn't have a parent that is a current branch
+head.
