@@ -36,3 +36,13 @@ A: Diagrams make it really easy to see the high level view of your git version
 tree. It makes it easy to understand what the detached head state is, a commit
 that is unreachable because it doesn't have a parent that is a current branch
 head.
+
+Q: What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
+
+A: When you merge two branches, git will work out which lines were added and
+which lines were removed based on the latest commit in each branch as well as
+the parent branch for the branch that you want to merge into master. We
+represent it in the diagram the way we do because we want the master branch (or
+whichever other branch) to converge with the branch being merged because we want
+their changes to be merged into one file.
