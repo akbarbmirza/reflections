@@ -46,3 +46,12 @@ the parent branch for the branch that you want to merge into master. We
 represent it in the diagram the way we do because we want the master branch (or
 whichever other branch) to converge with the branch being merged because we want
 their changes to be merged into one file.
+
+Q: What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+A: Git's automatic merges makes your life easier and it does guesswork when Git
+is reasonably sure what changes were made. However, sometimes there is a merge
+conflict and that's when you need to check it manually. Sometimes, Git won't
+understand if changes made were made to another function that does the same
+thing. In those cases, it's better to be safe than sorry.
