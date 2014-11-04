@@ -1,0 +1,8 @@
+Q: When would you want to use a remote repository rather than keeping all your
+work local?
+
+A: I would want to use a remote repository when I'd like to easily share my work
+with some of my collaborators, or even make my work public (open-source or what
+have you). Furthermore, remote repositories would also be a great solution to
+keep my work backed up. If my local machine bursts into flames and I lose my
+files, I can always just get it by cloning my GitHub repository.
