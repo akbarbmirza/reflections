@@ -15,3 +15,15 @@ manually. If you haven't pushed your new changes from the local repo to the
 remote, then that would cause a problem. If Git automatically kept you 
 up-to-date, then you would lose any changes that hadn't been pushed to the
 remote yet. This way you can also keep track of what changed properly.
+
+Q: Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+A: A branch is the marker that is tied with your commits. When you do git log on
+your local repository, you'll see the commits on the master branch. A clone is a
+copy of a branch. A clone can be done locally or through a remote if you have
+permission to clone a repo. Forks are when you make a clone of someone else's
+repo on GitHub in your GitHub profile. The Fork stores some data about the repo
+it was originally forked from. Any changes made on the fork won't change the
+repo that has been forked. Usually, you'll make a fork if you don't have
+permission to make changes to someone's repo.
