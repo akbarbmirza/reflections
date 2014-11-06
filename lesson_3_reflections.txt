@@ -6,3 +6,12 @@ with some of my collaborators, or even make my work public (open-source or what
 have you). Furthermore, remote repositories would also be a great solution to
 keep my work backed up. If my local machine bursts into flames and I lose my
 files, I can always just get it by cloning my GitHub repository.
+
+Q: Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+A: You would want to pull changes manually, because you want to push changes
+manually. If you haven't pushed your new changes from the local repo to the
+remote, then that would cause a problem. If Git automatically kept you 
+up-to-date, then you would lose any changes that hadn't been pushed to the
+remote yet. This way you can also keep track of what changed properly.
