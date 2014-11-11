@@ -37,3 +37,11 @@ place when you use git pull or git merge. If you didn't have a copy of the last
 known state of the remote stored locally, you wouldn't be able to tell how many
 states ahead or behind you are from the origin/master branch when you run git
 status.
+
+Q: How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+A: To collaborate without using Git or GitHub, I would share my files in a zip
+archive via USB or Email. It would be easier to access files, at first at least,
+but much harder to collaborate. I wouldn't be able to easily see the changes
+between file versions, or experiment with branches like I can in Git.
