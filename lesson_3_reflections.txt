@@ -27,3 +27,13 @@ repo on GitHub in your GitHub profile. The Fork stores some data about the repo
 it was originally forked from. Any changes made on the fork won't change the
 repo that has been forked. Usually, you'll make a fork if you don't have
 permission to make changes to someone's repo.
+
+Q: What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+A: One of the benefits of having a copy of the last known state of the remote
+stored locally would be that git would be able to place your commit in the right
+place when you use git pull or git merge. If you didn't have a copy of the last
+known state of the remote stored locally, you wouldn't be able to tell how many
+states ahead or behind you are from the origin/master branch when you run git
+status.
