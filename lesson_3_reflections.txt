@@ -45,3 +45,20 @@ A: To collaborate without using Git or GitHub, I would share my files in a zip
 archive via USB or Email. It would be easier to access files, at first at least,
 but much harder to collaborate. I wouldn't be able to easily see the changes
 between file versions, or experiment with branches like I can in Git.
+
+Q: When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+
+A: You would want to make changes in a separate branch if the changes you're
+adding may break the current, working version of the code. Furthermore, you may
+not want that code to be public yet. The benefit of using a separate branch is
+that you can split your work on the main branch and on the other. You can work
+on the feature without breaking the stable version, and the stable version can
+be updated to include bug fixes, and stable changes. However, this means that
+your other branch isn't automatically updated with the changes to the other
+branch. In fact, there could even be merge conflicts which makes the process
+even more confusing. However, this method is generally safer. On the other hand,
+you could make the changes on master and then you don't have to worry about
+going through the convoluted process to update a separate branch. However, if
+you break something or you don't want something you're adding to be public yet,
+you won't really have that option.
